@@ -1,7 +1,7 @@
 TITLE Low-Level I/O     (lowlevel.asm)
 
-; Author: Andrew Swaim			swaima@oregonstate.edu
-; CS271-400		Program 6A      3/18/2018
+; Author: Andrew Swaim
+; Date: 3/18/2018
 ; Description: Get 10 integers from the user using a readVal procedure and getString macro to
 ;	prompt the user for each value, get the input as a string, convert the string to numeric
 ;	form while validating the input, and storing the value in an array. Then the array of inputs
@@ -41,7 +41,7 @@ ENDM
 
 .data
 ;Strings.
-program			BYTE	"PROGRAMMING ASSIGNMENT 6: Designing low-level I/O procedures",0
+program			BYTE	"Designing Low-Level I/O Procedures",0
 author			BYTE	"Written by: Andrew Swaim",0
 rules1			BYTE	"Please provide 10 unsigned decimal integers.",0
 rules2			BYTE	"Each number needs to be small enough to fit inside a 32 bit register.",0
